@@ -7,8 +7,8 @@ session_start();
 
 <head>
     <meta charset="UTF-8">
-    <title>Techhub</title>
-    <link rel="shortcut icon" href="assets/TechHub.png" />
+    <title>APIT</title>
+    <link rel="shortcut icon" href="assets/APIT.png" />
     <link rel="stylesheet" type="text/css" href="styles/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -83,7 +83,7 @@ session_start();
         <main id="container-login">
             <div id="login">
                 <div id="container-imagem">
-                    <img class="imagem" src="assets/TechHub.png" alt="">
+                    <img class="imagem" src="assets/APIT.png" alt="">
                 </div>
                 <div id="titulo-login">
                     <h1>

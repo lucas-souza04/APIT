@@ -63,7 +63,7 @@
   #login {
     height: 650px;
     width: 600px;
-    background: #267DFF ;
+    background: #b8c0ca ;
     border-radius: 20px 0 0 20px;
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@
     padding: 10px;
     text-align: center;
     cursor: pointer;
-    background-color: #267DFF;
+    background-color: #b8c0ca;
     color: #fff;
     border-radius: 10px;
     border: 1px solid #fff;
@@ -85,7 +85,7 @@
   }
   
   input[type="submit"]:hover {
-    background-color: #0010c4;
+    background-color: #535355;
     transition: 0.5s;
   }
   

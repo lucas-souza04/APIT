@@ -8,8 +8,8 @@ session_start();
 
 <head>
 	<meta charset="UTF-8">
-	<title>TechHub</title>
-	<link rel="shortcut icon" href="assets/TechHub.png" />
+	<title>APIT</title>
+	<link rel="shortcut icon" href="assets/APIT.png" />
 	<link rel="stylesheet" type="text/css" href="styles/sobre.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,17 +22,11 @@ session_start();
 	<nav>
 		<div id="conteudo-nav">
 			<div>
-				<img class="imagem" src="assets/LogoTech.png" id="logo">
+				<img class="imagem" src="assets/Logo.png" id="logo">
 			</div>
 			<ul>
 				<li>
 					<a href="index.php" id="1">Inicío</a>
-				</li>
-				<li>
-					Cursos
-				</li>
-				<li>
-					Sobre Nós
 				</li>
 				<li>
 					<a id="botao-login">
@@ -46,54 +40,94 @@ session_start();
 		<div id="container-info">
 			<div id="informacoes-curso">
 				<h1 class="titulo">
-					Desenvolvimento Web Avançado
+					Curso de Jovem Aprendiz
 				</h1>
 				<h2 class="sub-titulo">
-					A Web mudou, este é o curso mais profundo com as tecnologias web emergentes. HTML5, CSS3 e
-					JavaScript de
-					verdade.
+				Trabalhamos para educar e empregar jovens em busca de um futuro melhor!
 				</h2>
 			</div>
 			<div id="o-que-vamos-aprender">
 				<h1 class="titulo">
-					O que você aprenderá
+				Confira as disciplinas do curso:
 				</h1>
 				<div>
 					<ul class="conteudos">
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/check.svg" class="icon">
-								Serão capazes a desenvolver projetos web avançados.
+								Cidadania e Participação Social - 36h
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/check.svg" class="icon">
-								Dominar React, Angular, TypeScript, jQuery, BootStrap entre outros.
+								Direito do Trabalho - 26h
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/check.svg" class="icon">
-								Geo-localização.
+								Educação para o Trabalho - 40h
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/check.svg" class="icon">
-								Criar gráficos avançados.
+								Matemática Aplicada e Financeira - 50h
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/check.svg" class="icon">
-								Web Responsive.
+								Português e Redação Comercial - 56h
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/check.svg" class="icon">
-								Google Chart API.
+								Gestão Empresarial - 50h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Introdução a Administração - 20h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Administração Financeira - 20h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Contabilidade Geral - 24h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Administração de RH - 20h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Administração e Marketing - 30h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Economia e Mercado de Capitais - 40h
+							</div>
+						</li>
+						<li class="conteudo">
+							<div class="item">
+								<img src="assets/check.svg" class="icon">
+								Administração de Materiais e Produtos - 24h
 							</div>
 						</li>
 					</ul>
@@ -108,61 +142,28 @@ session_start();
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/play.svg" class="icon">
-								38,5 horas de vídeo sob demanda
+								436 horas de aulas online
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/file.svg" class="icon">
-								9 artigos
+								Atividades
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/download.svg" class="icon">
-								8 recursos para download
+								Recursos para download
 							</div>
 						</li>
 						<li class="conteudo">
 							<div class="item">
 								<img src="assets/mobile.svg" class="icon">
-								Acesso no dispositivo móvel e na TV
+								Acesso no dispositivo móvel
 							</div>
 						</li>
-						<li class="conteudo">
-							<div class="item">
-								<img src="assets/certificate.svg" class="icon">
-								Certificado de conclusão
-							</div>
-							<div style="width: 700px; height: 700px;">
-								<canvas id="grafico1"></canvas>
-							</div>
-
-							<script>
-								const ctx = document.getElementById('grafico1');
-
-								new Chart(ctx, {
-									type: 'bar',
-									data: {
-										labels: ['JavaScript', 'SQL', 'Java', 'Bash/Shell', 'Python'],
-										datasets: [{
-											label: '% de usuarios',
-											data: [65, 45, 43, 32, 30],
-											borderWidth: 1
-										}]
-									},
-									options: {
-										scales: {
-											y: {
-												beginAtZero: true
-											}
-										}
-									}
-								});
-
-
-							</script>
-						</li>
+						
 					</ul>
 				</div>
 			</div>
@@ -171,16 +172,16 @@ session_start();
 			<img class="imagem" src="assets/aula.jpg" id="aula">
 			<div id="detalhes-curso">
 				<h2 class="sub-titulo">
-					Inscreva-se neste curso e tenha acesso ilimitado
+					Tenha acesso a todo o conteúdo
 				</h2>
 				<button type="button" disabled>
-					Indisponível no momento
+					Em progresso
 				</button>
 				<ul class="detalhes">
 					<li>
 						<div class="item">
 							<img src="assets/check.svg" class="icon">
-							Mais de 25.000 alunos.
+							Responsabilidade Social, Excelência, Ética e Transparência.
 						</div>
 					</li>
 					<li>
@@ -192,7 +193,7 @@ session_start();
 					<li>
 						<div class="item">
 							<img src="assets/check.svg" class="icon">
-							Curso com atualizações garantidas pelo instrutor.
+							Curso com atualizações garantidas pela associação.
 						</div>
 					</li>
 				</ul>

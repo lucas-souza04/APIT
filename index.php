@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 ?>
 
@@ -7,8 +7,8 @@ session_start();
 
 <head>
 	<meta charset="UTF-8">
-	<title>Techhub</title>
-	<link rel="shortcut icon" href="assets/TechHub.png" />
+	<title>APIT</title>
+	<link rel="shortcut icon" href="assets/APIT.png" />
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,27 +20,21 @@ session_start();
 	<nav>
 		<div id="conteudo-nav">
 			<div>
-				<img class="imagem" src="assets/LogoTech.png" id="logo">
+				<img class="imagem" src="assets/Logo.png" id="logo">
 			</div>
 			<ul>
 
-				
+
 				<li>
 					Inicío
 				</li>
-				
 
-				
-				<li>
-					Cursos
-				</li>
-				
 
-				
+
 				<li>
-					Sobre Nós
+					Aulas
 				</li>
-			
+
 
 				<li>
 					<a id="botao-login" href="cadastro.php">
@@ -53,24 +47,34 @@ session_start();
 	<main>
 		<div id="container-info">
 			<h1>
-				Desenvolvimento <br>
-				<span>
-					Web Avançado
-				</span>
+				Sobre a APIT <br>
 			</h1>
 			<p>
-				O mundo do desenvolvimento web é tão amplo quanto a própria Internet. Grande parte das nossas vidas sociais e
-				profissionais ocorre na Internet, o que estimulou setores voltados para a criação, o gerenciamento e a depuração
-				de sites e aplicativos dos quais dependemos cada vez mais.
+				APIT Associação Promotora de Instrução e Trabalho com os programas Aprendiz Jovem foi criado para
+				incentivar os empreendedores de todo território nacional,
+				do 2º e do 3º setor, a estabelecerem perspectivas para a juventude através de inclusão de aprendizes
+				adolescentes no mundo do trabalho. </br>
+				É uma ação promovida para incentivar a aplicação prática da Lei 10.097, que regulariza o trabalho de
+				adolescentes de 14 a 24 anos, e, sobretudo, para qualificar a inclusão social de jovens que estejam
+				vivendo situações de vulnerabilidade pessoal e social. O Programa conta com a parceria e certificada
+				pelo CMDCA – Osasco e do Ministério do Trabalho.
 			</p>
-			<a id="botao-cadastro" href="cadastro.php">
-				Cadastre-se
-			</a>
+
+			<section id="contato">
+				<a href="https://www.apitaprendiz.org.br" target="_blank">
+					<img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-logo-png-transparent-background-background-15.png"
+						alt="WhatsApp" style="width: 35px; height: 35px;">
+				</a>
+				<a href="https://www.instagram.com/apit.aprendiz/" target="_blank">
+					<img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png"
+						alt="Instagram" style="width: 35px; height: 35px;">
+				</a>
+			</section>
+
 		</div>
 		<div id="container-img">
 			<img class="imagem" src="assets/home.svg" id="home">
 		</div>
-
 
 	</main>
 </body>
