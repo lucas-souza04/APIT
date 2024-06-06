@@ -25,13 +25,17 @@ session_start();
 
 
 				<li>
-					Inicío
+					<a id="botao-login" href="index.php">
+						Inicío
+					</a>
 				</li>
 
 
 
 				<li>
-					Aulas
+					<a id="botao-login" href="sobre.php">
+						Aulas
+					</a>
 				</li>
 
 

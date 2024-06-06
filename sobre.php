@@ -24,7 +24,9 @@ session_start();
 			</div>
 			<ul>
 				<li>
-					<a href="index.php" id="1">Inicío</a>
+					<a href="index.php" id="botao-login">
+						Inicío
+					</a>
 				</li>
 				<li>
 					<a id="botao-login">
@@ -38,7 +40,7 @@ session_start();
 		<div id="container-info">
 			<div id="informacoes-curso">
 				<h1 class="titulo">
-					Curso de Jovem Aprendiz
+					Administração para Jovem Aprendiz
 				</h1>
 				<h2 class="sub-titulo">
 					Trabalhamos para educar e empregar jovens em busca de um futuro melhor!
