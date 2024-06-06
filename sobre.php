@@ -1,6 +1,5 @@
 <?php
 session_start();
-//include('verifica_login.php');
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +12,7 @@ session_start();
 	<link rel="stylesheet" type="text/css" href="styles/sobre.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
@@ -43,12 +41,12 @@ session_start();
 					Curso de Jovem Aprendiz
 				</h1>
 				<h2 class="sub-titulo">
-				Trabalhamos para educar e empregar jovens em busca de um futuro melhor!
+					Trabalhamos para educar e empregar jovens em busca de um futuro melhor!
 				</h2>
 			</div>
 			<div id="o-que-vamos-aprender">
 				<h1 class="titulo">
-				Confira as disciplinas do curso:
+					Confira as disciplinas do curso:
 				</h1>
 				<div>
 					<ul class="conteudos">
@@ -163,7 +161,7 @@ session_start();
 								Acesso no dispositivo móvel
 							</div>
 						</li>
-						
+
 					</ul>
 				</div>
 			</div>

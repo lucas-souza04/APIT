@@ -12,8 +12,7 @@ session_start();
 	<link rel="stylesheet" type="text/css" href="styles/index.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -62,12 +61,10 @@ session_start();
 
 			<section id="contato">
 				<a href="https://www.apitaprendiz.org.br" target="_blank">
-					<img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-logo-png-transparent-background-background-15.png"
-						alt="WhatsApp" style="width: 35px; height: 35px;">
+					<img src="https://www.freepnglogos.com/uploads/logo-website-png/logo-website-website-logo-png-transparent-background-background-15.png" alt="WhatsApp" style="width: 35px; height: 35px;">
 				</a>
 				<a href="https://www.instagram.com/apit.aprendiz/" target="_blank">
-					<img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png"
-						alt="Instagram" style="width: 35px; height: 35px;">
+					<img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png" alt="Instagram" style="width: 35px; height: 35px;">
 				</a>
 			</section>
 

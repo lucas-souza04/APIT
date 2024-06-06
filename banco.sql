@@ -14,6 +14,3 @@ CREATE TABLE tb_cadastro
  estado VARCHAR(2) NOT NULL,  
  UNIQUE (email)
 ); 
-
-DROP TABLE tb_cadastro; 
-DROP DATABASE cadastro;
