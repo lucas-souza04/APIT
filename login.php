@@ -1,9 +1,8 @@
-<?php 
+<?php
 session_start();
 include('conexao.php');
 
-if(empty($_POST['email']) || empty ($_POST['senha']))
-{
+if (empty($_POST['email']) || empty($_POST['senha'])) {
   header('Location: cadastro.php');
   exit();
 }
@@ -17,18 +16,13 @@ $result = mysqli_query($conexao, $query);
 
 $row = mysqli_num_rows($result);
 
-if($row == 1)
-{
+if ($row == 1) {
   $usuario_bd = mysqli_fetch_assoc($result);
   $_SESSION['email'] = $usuario_bd['email'];
   header('Location: sobre.php');
   exit();
-}
-else
-{
+} else {
   $_SESSION['nao_autenticado'] = true;
   header('Location: cadastro.php');
   exit();
 }
-
-?>
