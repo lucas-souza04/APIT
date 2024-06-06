@@ -1,7 +1,7 @@
 <?php
 
 define('HOST', 'localhost');
-define('USUARIO', 'id22279612_projeto');
+define('USUARIO', 'id22279612_usuarioapit');
 define('SENHA', 'Projeto@uni9');
 define('DB', 'id22279612_cadastro
 ');
