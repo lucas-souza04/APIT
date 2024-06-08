@@ -2,15 +2,17 @@
   
 ## Sobre o projeto
 
-Projeto de plataforma com video aulas para jovens aprendizes
+Projeto de plataforma com video aulas para jovens aprendizes.
 
-## Layout mobile
-![Mobile 1]() ![Mobile 2]()
+Segue link de apresentação com vídeo no youtube:
+
 
 ## Layout web
-![Web 1]()
+![Web 1](assets/TelaHome.png)
 
-![Web 2]()
+![Web 2](assets/TelaAulas.png)
+
+![Web 3](assets/TelaLogin.png)
 
 # Tecnologias utilizadas
 ## Back end
@@ -25,6 +27,9 @@ RA: 923104155
 
 Michele da Silva
 RA: 923204667
+
+Guilherme Marlon Brito do Carmo 
+RA: 923112659
 
 Filipe Pires Amaral
 RA: 923115019
