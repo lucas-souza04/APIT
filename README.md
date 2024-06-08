@@ -4,9 +4,6 @@
 
 Projeto de plataforma com video aulas para jovens aprendizes.
 
-Segue link de apresentação com vídeo no youtube:
-
-
 ## Layout web
 ![Web 1](assets/TelaHome.png)
 
@@ -39,3 +36,8 @@ RA: 923107776
 
 Paulo Henrique Bonfim Pereira
 RA: 923111378
+
+##Youtube
+
+Segue link de apresentação com vídeo no youtube:
+https://www.youtube.com/watch?v=3QXeN6Fhp-E
