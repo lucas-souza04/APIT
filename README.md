@@ -4,6 +4,8 @@
 
 Projeto de plataforma com video aulas para jovens aprendizes.
 
+Segue link para deploy: https://projeto-aprendiz-apit.000webhostapp.com
+
 ## Layout web
 ![Web 1](assets/TelaHome.png)
 
